@@ -1,33 +1,39 @@
-body{
+body {
     overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    font-weight: 400;
 }
+
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-    div#logo {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 199%;
-        height: 550px;
-        background-color: hsl(214, 64%, 98%);
-        /* border-radius: 25px; */
-        margin-left: -90%;
-        transform: rotate(-40deg);
-        /* margin-left: -50px; */
-        z-index: -1;
-        /* transform-box: view-box; */
-        /* offset-rotate: reverse; */
-    }
 
-    div#imgLogo {
-        position: absolute;
-        margin-top: 60px;
-        margin-left: 5%;
-        z-index: 10;
-    }
-    div#rectangle {
-       /* overflow: auto; */
+div#logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 199%;
+    height: 550px;
+    background-color: hsl(214, 64%, 98%);
+    /* border-radius: 25px; */
+    margin-left: -90%;
+    transform: rotate(-40deg);
+    /* margin-left: -50px; */
+    z-index: -1;
+    /* transform-box: view-box; */
+    /* offset-rotate: reverse; */
+}
+
+div#imgLogo {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 5%;
+    z-index: 10;
+}
+
+div#rectangle {
+    /* overflow: auto; */
     /* clear: both; */
     justify-self: end;
     width: 100%;
@@ -35,32 +41,94 @@ header {
     background: linear-gradient(hsl(265, 100%, 66%), hsl(322, 100%, 66%));
     transform: rotate(50deg);
     margin-left: 40%;
-    margin-top: -9%; 
+    margin-top: -9%;
     border-radius: 50px;
     position: absolute;
-    }
-    div#tryIt {
-        position: relative;
-        /* align-self: baseline; */
-        justify-self: end;
-        width: 30%;
-        height: 50px;
-        background: white;
-        text-align: center;
-        font-size: large;
-        line-height: 2.5em;
-        margin-top: 5%;
-        margin-right: 10%;
-    }
-    main {
-        /* clear: both; */
-        position: absolute;
-    }
-    div#hero {
-        width: 100%;
-    }
-    img#mockups {
-        width: 60%;
-        margin-left: 20%;
-        /* margin: auto; */
-    }
+
+}
+
+div#tryIt {
+    position: relative;
+    /* align-self: baseline; */
+    justify-self: end;
+    width: 30%;
+    height: 50px;
+    background: white;
+    text-align: center;
+    font-size: large;
+    line-height: 2.5em;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+main {
+    /* clear: both; */
+    width: 100%;
+    position: absolute;
+}
+
+div#hero {
+    width: 100%;
+    margin-top: -25%;
+}
+
+img#mockups {
+    width: 60%;
+    margin-left: 22%;
+    /* margin: auto; */
+}
+
+div#build {
+    /*  margin-top: 20%;
+        margin: auto; */
+    margin-left: 30%;
+}
+
+div#build p {
+    width: 50%;
+    text-align: center;
+}
+
+p {
+    font-size: x-large;
+}
+
+button.getStarted {
+    width: 300px;
+    height: 40px;
+    font-size: large;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    /* margin: auto; */
+}
+
+div#illustration {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: hsl(214, 64%, 98%);
+    margin-top: 35%;
+}
+
+div#illustration img {
+    width: 95%;
+}
+
+div#featured {
+    padding-bottom: 30%;
+    background-color: hsl(214, 64%, 98%);
+}
+
+div#trial {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    padding: 10%;
+}
+
+footer {
+    margin-top: 2360px;
+    color: white;
+    background-color: hsl(192, 100%, 9%);
+    padding: 10%;
+}
