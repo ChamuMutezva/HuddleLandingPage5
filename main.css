@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    width: 100%;
     font-family: "Poppins", sans-serif;
     font-size: large;
     font-weight: 400;
@@ -505,4 +506,8 @@ footer p {
         font-size: medium;
     }
     
+    div#socialContacts {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
