@@ -1,4 +1,5 @@
 # Frontend Mentor - Huddle landing page with coded decorative elements
+## use this link to open the live preview https://chamumutezva.github.io/HuddleLandingPage5/
 
 ![Design preview for the Huddle landing page with coded decorative elements challenge](./design/desktop-preview.jpg)
 
