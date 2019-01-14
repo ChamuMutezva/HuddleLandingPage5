@@ -73,7 +73,7 @@ div#hero {
 }
 
 img#mockups {
-    width: 60%;
+    width: 50%;
     margin-left: 22%;
     /* margin: auto; */
 }
@@ -106,7 +106,7 @@ div#illustration {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: hsl(214, 64%, 98%);
-    margin-top: 35%;
+    margin-top: 20%;
 }
 
 div#illustration img {
@@ -123,16 +123,16 @@ div#trial {
     width: 50%;
     text-align: center;
     background-color: white;
-    padding: 10%;
+    padding: 8% 10%;
 }
 
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 2360px;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin-top: 2050px;
     color: white;
     background-color: hsl(192, 100%, 9%);
-    padding: 30% 3% 5% 3%;
+    padding: 5% 3% 5% 3%;
     grid-gap: 5%;
 }
 
@@ -163,7 +163,7 @@ footer button {
 
 .fa {
     width: 40px;
-    margin: 20% 0;
+    margin: 20% 2%;
     text-align: center;
     border-radius: 5px;
     padding: 2px;
@@ -174,8 +174,9 @@ footer button {
 }
 
 div#socialContacts {
+    position: absolute;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 p.attribution {
@@ -188,4 +189,8 @@ p.attribution {
 
 footer p {
     font-size: large;
+}
+
+p.attribution a {
+    color: indianred;
 }

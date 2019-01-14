@@ -173,3 +173,7 @@
     p.attribution {
         font-size: x-small;
     }
+    div#socialContacts {
+        position: relative;
+        
+    }
