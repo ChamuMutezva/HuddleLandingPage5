@@ -1,0 +1,175 @@
+    body {
+        width: 100%;
+        overflow-x: hidden; 
+    }
+
+    div#imgLogo,
+    div#tryIt {
+        margin-top: 8%;
+    }
+
+    div#imgLogo img {
+        width: 50%;
+    }
+
+    div#tryIt {
+        height: 10%;
+        width: 70%;
+    }
+
+    div#logo {
+        margin-top: 10%;
+
+        transform: rotate(40deg);
+    }
+
+    div#rectangle {
+        height: 550px;
+        transform: rotate(-30deg);
+        margin-left: 70%;
+        margin-top: -29%;
+        z-index: -1;
+    }
+
+    div#hero {
+        margin-top: -70%;
+    }
+
+    div#build {
+        margin: 5% 10%;
+        text-align: center;
+
+    }
+
+    div#build h1 {
+        font-weight: 900;
+        font-size: x-large;
+    }
+
+    div#build p {
+        width: 100%;
+        font-size: small;
+    }
+
+    button.getStarted {
+        width: 70%;
+        height: 40px;
+        font-size: medium;
+
+    }
+
+    div#illustration {
+        grid-template-columns: 1fr;
+        margin-top: 35%;
+    }
+
+    div#illustration img {
+        width: 90%;
+        margin: auto;
+    }
+
+    div#flowing {
+        margin: auto;
+        text-align: center;
+    }
+
+    div#flowing h2 {
+        font-size: larger;
+    }
+
+    div#flowing p {
+        font-size: small;
+        margin: 5%;
+        color: #695151;
+    }
+
+    div#trial {
+        width: 65%;
+        font-size: small;
+    }
+
+    div#trial p {
+        font-size: small;
+    }
+
+    button.getStarted {
+        font-size: small;
+    }
+
+    main {
+        z-index: -1;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1360px;
+        padding: 30% 3% 5% 3%;
+        grid-gap: 5%;
+    }
+
+    div#featured {
+        padding-bottom: 100%;
+    }
+
+    .copy img {
+        width: 50%;
+    }
+
+    .copy {
+        margin-top: -10%;
+        width: 100%;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: medium;
+        margin-left: 5%;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+    }
+
+    h6 {
+        margin-bottom: -3%;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    footer p {
+        font-size: small;
+        text-align: center;
+    }
+
+    input[type="text"] {
+        height: 30px;
+    }
+
+    footer button {
+        width: 300px;
+        height: 40px;
+        font-size: small;
+    }
+
+    div#socialContacts {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .fa {
+        width: 20px;
+        margin: 20% 10px;
+        text-align: center;
+        font-size: large;
+    }
+
+    p.attribution {
+        font-size: x-small;
+    }

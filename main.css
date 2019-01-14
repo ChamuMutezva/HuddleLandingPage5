@@ -1,11 +1,9 @@
 body {
-  
     width: 100%;
     font-family: "Poppins", sans-serif;
     font-size: large;
     font-weight: 400;
     overflow-x: hidden;
-    
 }
 
 header {
@@ -17,12 +15,9 @@ div#logo {
     width: 199%;
     height: 550px;
     background-color: hsl(214, 64%, 98%);
-    /* border-radius: 25px; */
-    margin-left: -90%;
+      margin-left: -90%;
     transform: rotate(-40deg);
-    /* margin-left: -50px; */
-    z-index: -1;
-
+      z-index: -1;
 }
 
 div#imgLogo {
@@ -44,7 +39,11 @@ div#rectangle {
     margin-top: -9%;
     border-radius: 50px;
     position: absolute;
+    z-index: -1;
+}
 
+div#flowing {
+    margin: 0 5%;
 }
 
 div#tryIt {
@@ -189,330 +188,4 @@ p.attribution {
 
 footer p {
     font-size: large;
-}
-
-@media only screen and (max-width: 650px) {
-    body {
-        width: 100%;
-        overflow-x: hidden; 
-    }
-
-    div#imgLogo,
-    div#tryIt {
-        margin-top: 8%;
-    }
-
-    div#imgLogo img {
-        width: 50%;
-    }
-
-    div#tryIt {
-        height: 10%;
-        width: 70%;
-    }
-
-    div#logo {
-        margin-top: 10%;
-
-        transform: rotate(40deg);
-    }
-
-    div#rectangle {
-        height: 550px;
-        transform: rotate(-30deg);
-        margin-left: 70%;
-        margin-top: -29%;
-        z-index: -1;
-    }
-
-    div#hero {
-        margin-top: -70%;
-    }
-
-    div#build {
-        margin: 5% 10%;
-        text-align: center;
-
-    }
-
-    div#build h1 {
-        font-weight: 900;
-        font-size: x-large;
-    }
-
-    div#build p {
-        width: 100%;
-        font-size: small;
-    }
-
-    button.getStarted {
-        width: 70%;
-        height: 40px;
-        font-size: medium;
-
-    }
-
-    div#illustration {
-        grid-template-columns: 1fr;
-        margin-top: 35%;
-    }
-
-    div#illustration img {
-        width: 90%;
-        margin: auto;
-    }
-
-    div#flowing {
-        margin: auto;
-        text-align: center;
-    }
-
-    div#flowing h2 {
-        font-size: larger;
-    }
-
-    div#flowing p {
-        font-size: small;
-        margin: 5%;
-        color: #695151;
-    }
-
-    div#trial {
-        width: 65%;
-        font-size: small;
-    }
-
-    div#trial p {
-        font-size: small;
-    }
-
-    button.getStarted {
-        font-size: small;
-    }
-
-    main {
-        z-index: -1;
-    }
-
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 1360px;
-        padding: 30% 3% 5% 3%;
-        grid-gap: 5%;
-    }
-
-    div#featured {
-        padding-bottom: 100%;
-    }
-
-    .copy img {
-        width: 50%;
-    }
-
-    .copy {
-        margin-top: -10%;
-        width: 100%;
-    }
-
-    .about {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        font-size: medium;
-        margin-left: 5%;
-        justify-content: center;
-        align-items: start;
-        width: 100%;
-    }
-
-    h6 {
-        margin-bottom: -3%;
-    }
-
-    h4 {
-        text-align: center;
-    }
-
-    footer p {
-        font-size: small;
-        text-align: center;
-    }
-
-    input[type="text"] {
-        height: 30px;
-    }
-
-    footer button {
-        width: 300px;
-        height: 40px;
-        font-size: small;
-    }
-
-    div#socialContacts {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
-
-    .fa {
-        width: 20px;
-        margin: 20% 10px;
-        text-align: center;
-        font-size: large;
-    }
-
-    p.attribution {
-        font-size: x-small;
-    }
-
-}
-
-@media only screen and (min-width: 651px) and (max-width: 950px) {
-
-    div#imgLogo img {
-        width: 60%;
-    }
-
-    div#rectangle {
-        height: 650px;
-        transform: rotate(50deg);
-        margin-left: 60%;
-        margin-top: -29%;
-    }
-
-    div#logo {
-        width: 199%;
-        height: 570px;
-        margin-left: -90%;
-        margin-top: -90%;
-        transform: rotate(-40deg);
-
-    }
-
-    div#tryIt {
-        width: 50%;
-        height: 15%;
-        margin-top: 15%;
-    }
-
-    div#hero {
-        margin-top: -5%;
-    }
-
-    div#build {
-        margin-left: 15%;
-    }
-
-    div#build h1 {
-        width: 70%;
-        font-size: larger;
-        text-align: center;
-    }
-
-    div#build p {
-        width: 80%;
-        font-size: small;
-    }
-
-    button.getStarted {
-                margin: 10% 15%;
-        width: 280px;
-        height: 35px;
-        font-size: small;
-    }
-
-    div#illustration {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-top: 5%;
-    }
-
-    div#illustration img {
-        width: 80%;
-        margin: auto;
-    }
-
-    div#flowing h2 {
-        text-align: center;
-    }
-
-    div#flowing p {
-        font-size: small;
-        margin: auto;
-        width: 60%;
-        text-align: center;
-    }
-
-    div#trial {
-        padding: 5%;
-        width: 80%;
-        font-size: medium;
-    }
-
-    div#trial  p{
-        font-size: medium;
-    }
-
-    button.getStarted {
-        width: 280px;
-        height: 35px;
-        font-size: small;
-    }
-
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 1780px;
-        padding: 20% 3% 5% 3%;
-        grid-gap: 5%;
-    }
-
-    .copy {
-        margin-top: -10%;
-        width: 100%;
-    }
-
-    .copy img {
-        width: 50%;
-    } 
-
-    .about {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        font-size: medium;
-        margin-left: 5%;
-        justify-content: center;
-        align-items: start;
-        width: 100%;
-    }
-
-    h6 {
-        margin-bottom: -3%;
-    }
-
-    h4 {
-        text-align: center;
-    }
-
-    footer p {
-        font-size: small;
-        width: 60%;
-        margin: 5% auto;
-        text-align: center;
-    }
-
-    button#sub {
-        font-size: medium;
-    }
-    
-    div#socialContacts {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
 }
