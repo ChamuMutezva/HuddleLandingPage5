@@ -27,7 +27,7 @@ div#logo {
 
 div#imgLogo {
     position: absolute;
-    margin-top: 60px;
+    margin-top: 5%;
     margin-left: 5%;
     z-index: 10;
 }
@@ -36,7 +36,7 @@ div#rectangle {
     justify-self: end;
     width: 150%;
     height: 650px;
-    background: linear-gradient(hsl(265, 100%, 66%), hsl(322, 100%, 66%));
+    background: linear-gradient(hsl(322, 100%, 66%),hsl(265, 100%, 66%));
     transform: rotate(50deg);
     margin-right: -50%;
     margin-top: -9%;
@@ -105,7 +105,7 @@ button.getStarted {
     font-size: large;
     background-color: hsl(322, 100%, 66%);
     color: white;
-     margin: 3% 40%;
+     margin: 5% 40%;
 }
 
 h3 {
@@ -124,7 +124,8 @@ div#illustration img {
 }
 
 div#featured {
-    padding-bottom: 30%;
+    padding-bottom: 15%;
+    padding-top: 10%;
     background-color: hsl(214, 64%, 98%);
 }
 
@@ -133,12 +134,12 @@ div#trial {
     width: 50%;
     text-align: center;
     background-color: white;
-    padding: 8% 10%;
+    padding: 5% 10%;
 }
 
 footer {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;   
+    grid-template-columns: 1fr 1fr 1fr;   
     color: white;
     background-color: hsl(192, 100%, 9%);
     padding: 5% 3% 5% 3%;
@@ -153,8 +154,8 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: x-large;
-    height: 50%;
-    margin-top: 40%;
+    height: 70%;
+    margin-top: 20%;
 }
 
 input[type="text"] {
@@ -193,6 +194,7 @@ div#socialContacts {
 p.attribution {
     grid-area: 2/1/2/3;
     font-size: x-large;
+    margin-top: 10%;
     /* text-align: center; */
     justify-self: center;
     font-style: italic;
@@ -211,4 +213,8 @@ p.attribution a {
     color: white;
     font-size: small;
     align-self: end;
+}
+
+h4 {
+    font-weight: 900;
 }
