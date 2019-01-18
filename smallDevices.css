@@ -1,7 +1,6 @@
     body {
         width: 100%;
-        overflow-x: hidden; 
-    }
+           }
 
     div#imgLogo,
     div#tryIt {
@@ -13,8 +12,8 @@
     }
 
     div#tryIt {
-        height: 10%;
-        width: 70%;
+               width: 30%;
+               margin-left: 60%;
     }
 
     div#logo {
@@ -32,7 +31,7 @@
     }
 
     div#hero {
-        margin-top: -70%;
+        margin-top: -100%;
     }
 
     div#build {
@@ -94,6 +93,7 @@
 
     button.getStarted {
         font-size: small;
+        margin: auto;
     }
 
     main {
@@ -105,14 +105,14 @@
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        margin-top: 1360px;
+      
         padding: 30% 3% 5% 3%;
         grid-gap: 5%;
     }
 
-    div#featured {
+   /* div#featured {
         padding-bottom: 100%;
-    }
+    }*/
 
     .copy img {
         width: 50%;
@@ -176,4 +176,8 @@
     div#socialContacts {
         position: relative;
         
+    }
+
+    .about a {
+        margin-top: 2%;
     }

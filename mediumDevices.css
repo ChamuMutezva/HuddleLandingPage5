@@ -44,7 +44,7 @@
     }
 
     button.getStarted {
-                margin: 10% 15%;
+        margin: 10% 15%;
         width: 280px;
         height: 35px;
         font-size: small;
@@ -78,7 +78,7 @@
         font-size: medium;
     }
 
-    div#trial  p{
+    div#trial p {
         font-size: medium;
     }
 
@@ -105,7 +105,7 @@
 
     .copy img {
         width: 50%;
-    } 
+    }
 
     .about {
         display: flex;
@@ -136,10 +136,13 @@
     button#sub {
         font-size: medium;
     }
-    
+
     div#socialContacts {
         position: relative;
         display: grid;
         grid-template-columns: 1fr;
     }
-    
+
+    .about a {
+        margin-top: 2%;
+    }
