@@ -6,22 +6,17 @@
         height: 650px;
         transform: rotate(50deg);
         margin-left: 60%;
-        margin-top: -29%;
+                margin-top: -59%;
     }
 
     div#logo {
-        width: 199%;
         height: 570px;
-        margin-left: -90%;
         margin-top: -90%;
-        transform: rotate(-40deg);
-
     }
 
     div#tryIt {
-        width: 50%;
-        height: 15%;
-        margin-top: 15%;
+        margin-left: 60%;
+        width: 180px;
     }
 
     div#hero {
@@ -35,8 +30,7 @@
     div#build h1 {
         width: 70%;
         font-size: larger;
-        text-align: center;
-    }
+           }
 
     div#build p {
         width: 80%;
@@ -49,7 +43,11 @@
         height: 35px;
         font-size: small;
     }
-
+    
+    #build button.getStarted {
+        margin: 5% 25%;
+    }
+    
     div#illustration {
         display: grid;
         grid-template-columns: 1fr;
@@ -80,20 +78,14 @@
 
     div#trial p {
         font-size: medium;
-    }
-
-    button.getStarted {
-        width: 280px;
-        height: 35px;
-        font-size: small;
-    }
+    }  
 
     footer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        margin-top: 1780px;
+
         padding: 20% 3% 5% 3%;
         grid-gap: 5%;
     }
@@ -145,4 +137,8 @@
 
     .about a {
         margin-top: 2%;
+    }
+
+    div#rectangle {
+       
     }

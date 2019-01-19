@@ -1,6 +1,6 @@
     body {
         width: 100%;
-           }
+    }
 
     div#imgLogo,
     div#tryIt {
@@ -12,13 +12,14 @@
     }
 
     div#tryIt {
-               width: 30%;
-               margin-left: 60%;
+        width: 30%;
+        margin-left: 60%;
+        height: 30px;
+        line-height: 2em;
     }
 
     div#logo {
         margin-top: 10%;
-
         transform: rotate(40deg);
     }
 
@@ -27,7 +28,6 @@
         transform: rotate(-30deg);
         margin-left: 70%;
         margin-top: -29%;
-        z-index: -1;
     }
 
     div#hero {
@@ -53,10 +53,15 @@
     button.getStarted {
         width: 70%;
         height: 40px;
-        font-size: medium;
+        font-size: small;
+        margin: 10% auto;
 
     }
 
+    #build button.getStarted {
+        margin: 10% auto;
+    }
+    
     div#illustration {
         grid-template-columns: 1fr;
         margin-top: 35%;
@@ -91,26 +96,17 @@
         font-size: small;
     }
 
-    button.getStarted {
-        font-size: small;
-        margin: auto;
-    }
-
-    main {
-        z-index: -1;
-    }
-
     footer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-      
+
         padding: 30% 3% 5% 3%;
         grid-gap: 5%;
     }
 
-   /* div#featured {
+    /* div#featured {
         padding-bottom: 100%;
     }*/
 
@@ -173,9 +169,10 @@
     p.attribution {
         font-size: x-small;
     }
+
     div#socialContacts {
         position: relative;
-        
+
     }
 
     .about a {
